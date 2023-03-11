@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Maharlika';
+  src: url('./public/Maharlika-Regular.ttf');
+}
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('./public/OpenSauceSans-Regular.ttf');
+}
+
+body {
+  background-image: url('./public/background-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Maharlika', 'Times New Roman', Times, serif;
+  font-size: 56px;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Open Sauce', 'Lucida Sans', Verdana, sans-serif;
+}
+
+.socials {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.socials>svg {
+  height: 27px;
+  fill: white;
+}
+
+.blurb {
+  width: 320px
+}
+
+.links {
+  font-family: 'Open Sauce';
+  text-align: end;
+  list-style: none;
+  line-height: 3.5rem;
+  font-size: 18.5px;
+  width: 300px;
+}
+.links>li {
+  border-bottom: .5px solid white;
+}
+
+.links>li:hover {
+  background-color: rgba(245, 245, 245, 0.176);
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  grid-auto-rows: auto;
+}
+
+.left {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 0 0 0 100px;
+}
+
+.right {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 0 100px 0 0;
+  display: flex;
+  align-items: end;
+}
