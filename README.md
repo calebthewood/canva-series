@@ -4,8 +4,12 @@ As a full stack dev, it's easy to spend a lot of time not designing. To keep my 
 ## HTML & CSS Series
 
 
-- [Day 1](https://www.canva.com/design/DAFc01hVuqs/54RpuCIoKwOn1GRIsTyKnw)
+[Day 1](https://www.canva.com/design/DAFc01hVuqs/54RpuCIoKwOn1GRIsTyKnw)
 
-- [Day 2](#)
+[Day 2](https://www.canva.com/design/DAFc01hVuqs/54RpuCIoKwOn1GRIsTyKnw)
 
-- [Day 3](https://www.canva.com/design/DAFc6ZJRhkc/_IakScih3g8VicUVmbmnxA/)
+[Day 3](https://www.canva.com/design/DAFc6ZJRhkc/_IakScih3g8VicUVmbmnxA/)
+
+[Day 4](https://www.canva.com/design/DAFc01hVuqs/54RpuCIoKwOn1GRIsTyKnw)
+
+[Day 5]()

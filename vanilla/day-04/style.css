@@ -1,0 +1,111 @@
+/* ### Fonts ### */
+@font-face {
+  font-family: 'CooperHewitt-Book';
+  src: url('./public/CooperHewitt-Book.otf');
+}
+
+@font-face {
+  font-family: 'CooperHewitt-Light';
+  src: url('./public/CooperHewitt-Light.otf');
+}
+
+@font-face {
+  font-family: 'CooperHewitt-Medium';
+  src: url('./public/CooperHewitt-Medium.otf');
+}
+
+/* ### Grid ### */
+.wrapper {
+  width: 1000px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 30px;
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.search {
+  grid-column: 1/8;
+  grid-row: 1;
+  background-color: white;
+  display: flex;
+}
+
+.search>input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.search>button {
+  position: relative;
+  left: 480px;
+  top: -46px;
+  height: 100%;
+  width: 44px;
+  border: none;
+  border-radius: 100%;
+}
+
+.name {
+  grid-column: 8/13;
+  grid-row: 1;
+  background-color: #ffc334;
+}
+
+.link-1 {
+  grid-column: 1/4;
+  grid-row: 2/4;
+  background-color: #ffc334;
+}
+
+.link-2 {
+  grid-column: 4/7;
+  grid-row: 2/7;
+  background-color: #bf3900;
+}
+
+.blurb {
+  grid-column: 7/13;
+  grid-row: 2/5;
+  background-color: white;
+}
+
+.link-3 {
+  grid-column: 1/4;
+  grid-row: 4/9;
+}
+
+.link-folder {
+  grid-column: 4/7;
+  grid-row: 7/9;
+  background-color: #ffc334;
+}
+
+.link-video {
+  grid-column: 7/10;
+  grid-row: 5/9;
+}
+
+.link-calendar {
+  grid-column: 10 / 13;
+  grid-row: 5 / 9;
+  background-color: #ffc334;
+}
+
+/* ### Misc Styles ### */
+
+body {
+  background-color: #f66000;
+  font-family: 'CooperHewitt-Medium';
+}
+
+a {
+  background-color: white;
+  border-radius: 15px;
+}
+
+svg {
+  height: 27px;
+  fill: #f66000;
+}
