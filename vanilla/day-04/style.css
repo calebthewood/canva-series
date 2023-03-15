@@ -20,92 +20,314 @@
   margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(13, 1fr);
-  gap: 30px;
+  gap: 15px;
   grid-template-rows: repeat(9, 1fr);
 }
 
-.search {
+.container {
   grid-column: 1/8;
   grid-row: 1;
-  background-color: white;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 }
 
-.search>input {
-  height: 100%;
-  width: 100%;
-  font-size: 1.5rem;
-}
-
-.search>button {
-  position: relative;
-  left: 480px;
-  top: -46px;
-  height: 100%;
-  width: 44px;
+.search-form {
+  background-color: white;
+  color: #212121;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0 2px 25px;
   border: none;
-  border-radius: 100%;
+  border-radius: 50px;
+
+}
+
+input[type="search"]{
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 4px 5px;
+  font-size: 30px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  width: 80%;
+}
+
+input[type="search"]::placeholder {
+  color: #212121;
+}
+
+.spyglass {
+  fill: white;
+  height: 24px;
+}
+
+button[type="submit"] {
+  background-color: #cccccc;
+  overflow: hidden;
+  width: 40px;
+  margin: 2px 6px 3px 4px;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
 }
 
 .name {
   grid-column: 8/13;
   grid-row: 1;
   background-color: #ffc334;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.name>p {
+  margin: 0px 12px;
+  padding-left: 16px;
+}
+
+.name>span {
+  width: 40px;
+}
+
+.name>span>svg {
+  height: 32px;
+  fill: #f66000;
 }
 
 .link-1 {
   grid-column: 1/4;
   grid-row: 2/4;
-  background-color: #ffc334;
+  border-radius: 10px;
+  font-size: 24px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:
+    radial-gradient(60px 60px at 0px -20px, transparent 49px, white 50px, white 58px, transparent 59px),
+    radial-gradient(50px 40px at 100% 0%, transparent 49px, white 50px, white 58px, transparent 59px),
+    radial-gradient(85px 60px at 60% 110%, transparent 49px, white 50px, white 58px, transparent 59px),
+    radial-gradient(#ffc334 0, #ffc334 0);
+  background-repeat: no-repeat;
+}
+
+.link-1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffc334;
+  border-bottom: 10px solid transparent;
+  right: 50%;
+  bottom: -20px;
 }
 
 .link-2 {
   grid-column: 4/7;
-  grid-row: 2/7;
+  grid-row: 2/6;
   background-color: #bf3900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.link-2-content {
+  width: 70%;
+  height: 70%;
+  text-align: center;
+}
+
+.link-2-content>img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.link-2-content>p {
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'CooperHewitt-Light';
 }
 
 .blurb {
   grid-column: 7/13;
   grid-row: 2/5;
   background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blurb>.title {
+  font-size: 14px;
+  text-transform: capitalize;
+
+}
+
+.blurb>hr {
+  border: 1px solid #f66000;
+  width: 100%;
+  margin: 0;
+}
+
+.blurb>.body {
+  padding: 20px 20px;
+  font-size: 14px;
 }
 
 .link-3 {
   grid-column: 1/4;
-  grid-row: 4/9;
+  grid-row: 4/8;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.link-3-content {
+  width: 70%;
+  height: 70%;
+  text-align: center;
+}
+
+.link-3-content>img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.link-3-content>p {
+  margin-top: 0;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: 'CooperHewitt-Light';
+}
+
+.link-3>.link-content>p {
+  color: black;
 }
 
 .link-folder {
   grid-column: 4/7;
-  grid-row: 7/9;
-  background-color: #ffc334;
+  grid-row: 6/8;
+  background-image: url('./public/folder-img.png');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-folder>p {
+  margin-top: 32px;
 }
 
 .link-video {
-  grid-column: 7/10;
-  grid-row: 5/9;
+  grid-column: 7/9;
+  grid-row: 5/8;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-video>.green-box {
+  width: 100%;
+  height: 25%;
+  background-color: white;
+  position: relative;
+  background-image: url('./public/green-bottom.png');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.link-video>.video-content {
+  margin-top: 10px;
+}
+
+.link-video>div>svg {
+  height: 4rem;
+  width: 100%;
+  fill: #f66000;
+}
+
+.link-video>div>p {
+  margin-bottom: 8px;
 }
 
 .link-calendar {
-  grid-column: 10 / 13;
-  grid-row: 5 / 9;
+  grid-column: 9 / 13;
+  grid-row: 5 / 8;
   background-color: #ffc334;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.link-calendar>p {
+  margin: 0;
+}
+
+.calendar-img {
+  background-image: url('./public/calendar-img.png');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+}
+
+.link-calendar>.white-border {
+  border: 1px solid white;
+  position: relative;
+  bottom: 3px;
+  width: 99%;
 }
 
 /* ### Misc Styles ### */
 
 body {
   background-color: #f66000;
-  font-family: 'CooperHewitt-Medium';
+  font-family: 'CooperHewitt-light';
 }
 
-a {
-  background-color: white;
-  border-radius: 15px;
-}
-
-svg {
-  height: 27px;
-  fill: #f66000;
+p {
+  font-size: 24px;
 }
