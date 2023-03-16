@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Bugaki';
+  src: url('./public/Bugaki-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Caladea';
+  src: url('./public/Caladea-Regular.ttf');
+}
+
+body {
+  background-color: #fff5f9;
+}
+
+section {
+  height: 500px;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  border: 1px solid purple;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bugaki';
+  color: #0c1765
+}
+
+.home {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home>div>h1 {
+  font-size: 66.6px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.home>div>img {
+  margin: auto;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-family: 'Caladea';
+  background-color: #0c1765;
+  border-radius: 50px;
+  color: #fff5f9;
+  width: fit-content;
+  padding: 6px 34px;
+  border: 1px solid transparent;
+  margin-top: 10px;
+}
+
+.announcements {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.announcements>div>h2 {
+  font-size: 39.1px;
+  text-align: center;
+  margin: 0;
+}
+
+.announcements>div {
+  width: 360px;
+}
+
+.announcements>img {
+  width: 360px;
+  margin-top: 50px;
+}
+
+.text-block {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.text-block>p {
+  font-size: 16.4px;
+  /* line-height: 1.2rem; */
+}
