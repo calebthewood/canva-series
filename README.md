@@ -12,4 +12,4 @@ As a full stack dev, it's easy to spend a lot of time not designing. To keep my 
 ## Day 4
 [Canva Template](https://www.canva.com/design/DAFc01hVuqs/54RpuCIoKwOn1GRIsTyKnw)
 ## Day 5
-[Canva Template]()
+[Canva Template](https://www.canva.com/design/DAFdZojUaQI/ff3wWSFxIfjIQZK5BytFBQ)

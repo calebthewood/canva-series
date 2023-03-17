@@ -88,10 +88,10 @@ h3 {
 }
 
 .highlights {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .highlights>h2 {
@@ -148,4 +148,150 @@ article {
   font-family: 'Caladea';
   color: #0c1765;
   padding: 0px 20px;
+}
+
+.updates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.updates>div>h2 {
+  font-size: 55px;
+  margin: 0;
+}
+
+.updates>div>img {
+  width: 100px;
+}
+
+.update-card-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.update-card {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.update-img {
+  width: 60px;
+  padding-right: 25px;
+}
+
+.update-left {
+  background-color: #fdc8d7;
+  border-radius: 20px;
+  height: 120px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: -36px;
+  z-index: -1;
+}
+
+.update-right {
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 20px;
+  height: 120px;
+  width: 410px;
+}
+
+.update-right>h3 {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  margin-left: 34px;
+
+}
+
+.update-right>p {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-left: 34px;
+  padding-right: 30px;
+}
+
+
+.spotlight {
+  display: flex;
+  flex-direction: row;
+}
+
+.spotlight-img {
+  width: 250px;
+}
+
+.spotlight>div>h2 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.spotlight>div>p {
+  font-size: 20px;
+  color: #0c1765;
+  width: 250px;
+}
+
+
+
+.profile-card-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+
+.profile-card {
+  margin: 10px;
+}
+
+.profile-card>img {
+  width: 180px;
+  position: relative;
+  bottom: -76px;
+  z-index: -1;
+}
+
+.profile-bio {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 120px;
+  width: 180px;
+}
+
+.name-p {
+  font-size: 12.2px;
+  color: #ffffff;
+  margin: auto;
+  background-color: #0c1765;
+  padding: 5px 25px;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Bugaki';
+  width: 90px;
+  position: relative;
+  top: -14px;
+}
+
+.position-p {
+  font-size: 16.6px;
+  text-align: center;
+  font-family: 'Caladea';
+  margin-top: 0;
+}
+
+.content-p {
+  font-size: 14.8px;
+  text-align: center;
+  font-family: 'Caladea';
+  margin: 0 44px;
 }
