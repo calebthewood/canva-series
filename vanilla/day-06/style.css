@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('./public/Nunito-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito-Light';
+  src: url('./public/Nunito-Medium.ttf');
+}
+
+/* light green #20cd8d */
+/* dark green #172627 */
+
+body {
+  background-color: #172627;
+  font-family: 'Nunito-Light';
+}
+
+.-card {
+  background-color: #20cd8d;
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.-card:hover {
+  background-color: #20cd8d;
+}
+
+.-body {
+  padding: .5rem;
+}
+
+.plus-btn {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: #172627;
+  color: #20cd8d;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  align-self: flex-end;
+}
+
+.plus-btn:hover {
+  background-color: #172627c3;
+}
+
+svg.plus-symbol {
+  fill: #20cd8d;
+  height: 1rem;
+  width: 1rem;
+}
+
+.icon {
+  width: 2.5rem;
+  padding-bottom: .5rem;
+}
+
+.title-text {
+  color: #ffffff;
+  border-left: solid 4px #20cd8d;
+  padding-left: 1rem;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;;
+}
+
+h1 {
+  font-size: 27.5px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+}
+
+/* ### Grid ### */
+
+.wrapper {
+  width: 1000px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 14rem);
+  gap: 1rem;
+  grid-template-rows: repeat(4, 7rem);
+}
+
+.title {
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.updates {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+
+.handbook {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+.report {
+  grid-column: 2;
+  grid-row: 3 / 5;
+}
+
+.projects {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+
+.products {
+  grid-column: 3;
+  grid-row: 3 / 5;
+}
+
+.hiring {
+  grid-column: 4;
+  grid-row: 1 / 3;
+}
+
+.culture {
+  grid-column: 4;
+  grid-row: 3 / 5
+}
