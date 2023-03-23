@@ -13,3 +13,9 @@ As a full stack dev, it's easy to spend a lot of time not designing. To keep my 
 [Canva Template](https://www.canva.com/design/DAFc01hVuqs/54RpuCIoKwOn1GRIsTyKnw)
 ## Day 5
 [Canva Template](https://www.canva.com/design/DAFdZojUaQI/ff3wWSFxIfjIQZK5BytFBQ)
+
+## Day 6
+[Canva Template](https://www.canva.com/design/DAFdgP6Yo7A/S1I6zcT28SBVucO1xNAbhg)
+
+## Day 7
+[Canva Template](https://www.canva.com/design/DAFd-NVipYk/8-OKmrlBuMrpSekV6pv-Ig)
