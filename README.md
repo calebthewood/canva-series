@@ -1,7 +1,13 @@
 # Canva Series
 
+tl;dr - I built a random canva template each day for 7 days to ween myself off Bootstrap.
+
 As a full stack dev, it's easy to spend a lot of time not designing. So to keep my HTML and CSS knowledge up-to-date I'm doing a week of quick and dirty design focused builds. Each day I'll be picking a random website tempalte from Canva.com, and building out the HTML and CSS. The goal is to ween myself off design tools like bootstrap and gain a solid understanding of tools like css-grid and flexbox. Also, it's fun, this kind of web work is how I first got started as a developer :)
 
+<br>
+<br>
+<br>
+<br>
 
 ## HTML & CSS Series
 Starting with plain old HTML & CSS. Might go on to do the same thing with JS frameworks (Solid, Svelte, etc) or design systems (Tailwind).
