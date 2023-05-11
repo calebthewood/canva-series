@@ -13,6 +13,9 @@ As a full stack dev, it's easy to spend a lot of time not designing. So to keep 
 Starting with plain old HTML & CSS. Might go on to do the same thing with JS frameworks (Solid, Svelte, etc) or design systems (Tailwind).
 
 ### Day 1
+
+<img src="https://github.com/calebthewood/canva-series/vanilla/day-01/screenshot-1.png" width="200px" >
+
 [Canva Template](https://www.canva.com/templates/EAE72h59o2Y-ivory-dark-brown-warm-neutral-classic-minimal-design-graphic-design-portfolio-website/)
 
 [LinkedIn Post](https://www.linkedin.com/posts/caleb-wood-440b37168_100daysofcode-7daysofcanva-webdev-activity-7039753882842898432-U2Ts?utm_source=share&utm_medium=member_desktop)
